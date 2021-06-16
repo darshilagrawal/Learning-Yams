@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5B7F431267A6CC800B4771C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F430267A6CC800B4771C /* AppDelegate.swift */; };
+		D5B7F433267A6CC800B4771C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F432267A6CC800B4771C /* SceneDelegate.swift */; };
+		D5B7F435267A6CC800B4771C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F434267A6CC800B4771C /* ViewController.swift */; };
+		D5B7F438267A6CC800B4771C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B7F436267A6CC800B4771C /* Main.storyboard */; };
+		D5B7F43A267A6CCC00B4771C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B7F439267A6CCC00B4771C /* Assets.xcassets */; };
+		D5B7F43D267A6CCC00B4771C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B7F43B267A6CCC00B4771C /* LaunchScreen.storyboard */; };
+		D5B7F448267A6CCC00B4771C /* Learning_YamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F447267A6CCC00B4771C /* Learning_YamsTests.swift */; };
+		D5B7F453267A6CCD00B4771C /* Learning_YamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F452267A6CCD00B4771C /* Learning_YamsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B7F444267A6CCC00B4771C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B7F425267A6CC700B4771C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B7F42C267A6CC800B4771C;
+			remoteInfo = "Learning Yams";
+		};
+		D5B7F44F267A6CCC00B4771C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B7F425267A6CC700B4771C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B7F42C267A6CC800B4771C;
+			remoteInfo = "Learning Yams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5B7F42D267A6CC800B4771C /* Learning Yams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Yams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B7F430267A6CC800B4771C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5B7F432267A6CC800B4771C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5B7F434267A6CC800B4771C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5B7F437267A6CC800B4771C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5B7F439267A6CCC00B4771C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B7F43C267A6CCC00B4771C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5B7F43E267A6CCC00B4771C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B7F443267A6CCC00B4771C /* Learning YamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning YamsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B7F447267A6CCC00B4771C /* Learning_YamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_YamsTests.swift; sourceTree = "<group>"; };
+		D5B7F449267A6CCC00B4771C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B7F44E267A6CCC00B4771C /* Learning YamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning YamsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B7F452267A6CCD00B4771C /* Learning_YamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_YamsUITests.swift; sourceTree = "<group>"; };
+		D5B7F454267A6CCD00B4771C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B7F42A267A6CC800B4771C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F440267A6CCC00B4771C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F44B267A6CCC00B4771C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5B7F424267A6CC700B4771C = {
+			isa = PBXGroup;
+			children = (
+				D5B7F42F267A6CC800B4771C /* Learning Yams */,
+				D5B7F446267A6CCC00B4771C /* Learning YamsTests */,
+				D5B7F451267A6CCC00B4771C /* Learning YamsUITests */,
+				D5B7F42E267A6CC800B4771C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B7F42E267A6CC800B4771C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7F42D267A6CC800B4771C /* Learning Yams.app */,
+				D5B7F443267A6CCC00B4771C /* Learning YamsTests.xctest */,
+				D5B7F44E267A6CCC00B4771C /* Learning YamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B7F42F267A6CC800B4771C /* Learning Yams */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7F430267A6CC800B4771C /* AppDelegate.swift */,
+				D5B7F432267A6CC800B4771C /* SceneDelegate.swift */,
+				D5B7F434267A6CC800B4771C /* ViewController.swift */,
+				D5B7F436267A6CC800B4771C /* Main.storyboard */,
+				D5B7F439267A6CCC00B4771C /* Assets.xcassets */,
+				D5B7F43B267A6CCC00B4771C /* LaunchScreen.storyboard */,
+				D5B7F43E267A6CCC00B4771C /* Info.plist */,
+			);
+			path = "Learning Yams";
+			sourceTree = "<group>";
+		};
+		D5B7F446267A6CCC00B4771C /* Learning YamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7F447267A6CCC00B4771C /* Learning_YamsTests.swift */,
+				D5B7F449267A6CCC00B4771C /* Info.plist */,
+			);
+			path = "Learning YamsTests";
+			sourceTree = "<group>";
+		};
+		D5B7F451267A6CCC00B4771C /* Learning YamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7F452267A6CCD00B4771C /* Learning_YamsUITests.swift */,
+				D5B7F454267A6CCD00B4771C /* Info.plist */,
+			);
+			path = "Learning YamsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5B7F42C267A6CC800B4771C /* Learning Yams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B7F457267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning Yams" */;
+			buildPhases = (
+				D5B7F429267A6CC800B4771C /* Sources */,
+				D5B7F42A267A6CC800B4771C /* Frameworks */,
+				D5B7F42B267A6CC800B4771C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning Yams";
+			productName = "Learning Yams";
+			productReference = D5B7F42D267A6CC800B4771C /* Learning Yams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5B7F442267A6CCC00B4771C /* Learning YamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B7F45A267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning YamsTests" */;
+			buildPhases = (
+				D5B7F43F267A6CCC00B4771C /* Sources */,
+				D5B7F440267A6CCC00B4771C /* Frameworks */,
+				D5B7F441267A6CCC00B4771C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B7F445267A6CCC00B4771C /* PBXTargetDependency */,
+			);
+			name = "Learning YamsTests";
+			productName = "Learning YamsTests";
+			productReference = D5B7F443267A6CCC00B4771C /* Learning YamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5B7F44D267A6CCC00B4771C /* Learning YamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B7F45D267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning YamsUITests" */;
+			buildPhases = (
+				D5B7F44A267A6CCC00B4771C /* Sources */,
+				D5B7F44B267A6CCC00B4771C /* Frameworks */,
+				D5B7F44C267A6CCC00B4771C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B7F450267A6CCC00B4771C /* PBXTargetDependency */,
+			);
+			name = "Learning YamsUITests";
+			productName = "Learning YamsUITests";
+			productReference = D5B7F44E267A6CCC00B4771C /* Learning YamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B7F425267A6CC700B4771C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D5B7F42C267A6CC800B4771C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D5B7F442267A6CCC00B4771C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D5B7F42C267A6CC800B4771C;
+					};
+					D5B7F44D267A6CCC00B4771C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D5B7F42C267A6CC800B4771C;
+					};
+				};
+			};
+			buildConfigurationList = D5B7F428267A6CC700B4771C /* Build configuration list for PBXProject "Learning Yams" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5B7F424267A6CC700B4771C;
+			productRefGroup = D5B7F42E267A6CC800B4771C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B7F42C267A6CC800B4771C /* Learning Yams */,
+				D5B7F442267A6CCC00B4771C /* Learning YamsTests */,
+				D5B7F44D267A6CCC00B4771C /* Learning YamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B7F42B267A6CC800B4771C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B7F43D267A6CCC00B4771C /* LaunchScreen.storyboard in Resources */,
+				D5B7F43A267A6CCC00B4771C /* Assets.xcassets in Resources */,
+				D5B7F438267A6CC800B4771C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F441267A6CCC00B4771C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F44C267A6CCC00B4771C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B7F429267A6CC800B4771C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B7F435267A6CC800B4771C /* ViewController.swift in Sources */,
+				D5B7F431267A6CC800B4771C /* AppDelegate.swift in Sources */,
+				D5B7F433267A6CC800B4771C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F43F267A6CCC00B4771C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B7F448267A6CCC00B4771C /* Learning_YamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B7F44A267A6CCC00B4771C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B7F453267A6CCD00B4771C /* Learning_YamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B7F445267A6CCC00B4771C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B7F42C267A6CC800B4771C /* Learning Yams */;
+			targetProxy = D5B7F444267A6CCC00B4771C /* PBXContainerItemProxy */;
+		};
+		D5B7F450267A6CCC00B4771C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B7F42C267A6CC800B4771C /* Learning Yams */;
+			targetProxy = D5B7F44F267A6CCC00B4771C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5B7F436267A6CC800B4771C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B7F437267A6CC800B4771C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5B7F43B267A6CCC00B4771C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B7F43C267A6CCC00B4771C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5B7F455267A6CCD00B4771C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5B7F456267A6CCD00B4771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B7F458267A6CCD00B4771C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning Yams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-Yams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B7F459267A6CCD00B4771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning Yams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-Yams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5B7F45B267A6CCD00B4771C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning YamsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-YamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Yams.app/Learning Yams";
+			};
+			name = Debug;
+		};
+		D5B7F45C267A6CCD00B4771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning YamsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-YamsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Yams.app/Learning Yams";
+			};
+			name = Release;
+		};
+		D5B7F45E267A6CCD00B4771C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning YamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-YamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learning Yams";
+			};
+			name = Debug;
+		};
+		D5B7F45F267A6CCD00B4771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AD2RY8S5T;
+				INFOPLIST_FILE = "Learning YamsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darshil.Learning-YamsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Learning Yams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B7F428267A6CC700B4771C /* Build configuration list for PBXProject "Learning Yams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B7F455267A6CCD00B4771C /* Debug */,
+				D5B7F456267A6CCD00B4771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B7F457267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning Yams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B7F458267A6CCD00B4771C /* Debug */,
+				D5B7F459267A6CCD00B4771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B7F45A267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning YamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B7F45B267A6CCD00B4771C /* Debug */,
+				D5B7F45C267A6CCD00B4771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B7F45D267A6CCD00B4771C /* Build configuration list for PBXNativeTarget "Learning YamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B7F45E267A6CCD00B4771C /* Debug */,
+				D5B7F45F267A6CCD00B4771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B7F425267A6CC700B4771C /* Project object */;
+}
