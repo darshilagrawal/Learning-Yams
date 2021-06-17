@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5A34C59267BC42D00275CA8 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A34C58267BC42D00275CA8 /* Language.swift */; };
 		D5B7F431267A6CC800B4771C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F430267A6CC800B4771C /* AppDelegate.swift */; };
 		D5B7F433267A6CC800B4771C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F432267A6CC800B4771C /* SceneDelegate.swift */; };
 		D5B7F435267A6CC800B4771C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B7F434267A6CC800B4771C /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5A34C58267BC42D00275CA8 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		D5B7F42D267A6CC800B4771C /* Learning Yams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Yams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B7F430267A6CC800B4771C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5B7F432267A6CC800B4771C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				D5B7F439267A6CCC00B4771C /* Assets.xcassets */,
 				D5B7F43B267A6CCC00B4771C /* LaunchScreen.storyboard */,
 				D5B7F43E267A6CCC00B4771C /* Info.plist */,
+				D5A34C58267BC42D00275CA8 /* Language.swift */,
 			);
 			path = "Learning Yams";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B7F435267A6CC800B4771C /* ViewController.swift in Sources */,
+				D5A34C59267BC42D00275CA8 /* Language.swift in Sources */,
 				D5B7F431267A6CC800B4771C /* AppDelegate.swift in Sources */,
 				D5B7F433267A6CC800B4771C /* SceneDelegate.swift in Sources */,
 			);
